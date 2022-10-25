@@ -1,0 +1,12 @@
+C:\Users\Damjan Stojanovski\source\repos\FileUploader\FileUploader.Web.ViewModels\bin\Debug\netstandard2.0\FileUploader.Web.ViewModels.deps.json
+C:\Users\Damjan Stojanovski\source\repos\FileUploader\FileUploader.Web.ViewModels\bin\Debug\netstandard2.0\FileUploader.Web.ViewModels.dll
+C:\Users\Damjan Stojanovski\source\repos\FileUploader\FileUploader.Web.ViewModels\bin\Debug\netstandard2.0\FileUploader.Web.ViewModels.pdb
+C:\Users\Damjan Stojanovski\source\repos\FileUploader\FileUploader.Web.ViewModels\obj\Debug\netstandard2.0\FileUploader.Web.ViewModels.csprojAssemblyReference.cache
+C:\Users\Damjan Stojanovski\source\repos\FileUploader\FileUploader.Web.ViewModels\obj\Debug\netstandard2.0\FileUploader.Web.ViewModels.AssemblyInfoInputs.cache
+C:\Users\Damjan Stojanovski\source\repos\FileUploader\FileUploader.Web.ViewModels\obj\Debug\netstandard2.0\FileUploader.Web.ViewModels.AssemblyInfo.cs
+C:\Users\Damjan Stojanovski\source\repos\FileUploader\FileUploader.Web.ViewModels\obj\Debug\netstandard2.0\FileUploader.Web.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\Damjan Stojanovski\source\repos\FileUploader\FileUploader.Web.ViewModels\obj\Debug\netstandard2.0\FileUploader.Web.ViewModels.dll
+C:\Users\Damjan Stojanovski\source\repos\FileUploader\FileUploader.Web.ViewModels\obj\Debug\netstandard2.0\FileUploader.Web.ViewModels.pdb
+C:\Users\Damjan Stojanovski\source\repos\FileUploader\FileUploader.Web.ViewModels\bin\Debug\netstandard2.0\FileUploader.Domain.dll
+C:\Users\Damjan Stojanovski\source\repos\FileUploader\FileUploader.Web.ViewModels\bin\Debug\netstandard2.0\FileUploader.Domain.pdb
+C:\Users\Damjan Stojanovski\source\repos\FileUploader\FileUploader.Web.ViewModels\obj\Debug\netstandard2.0\FileUploader.Web.ViewModels.csproj.CopyComplete

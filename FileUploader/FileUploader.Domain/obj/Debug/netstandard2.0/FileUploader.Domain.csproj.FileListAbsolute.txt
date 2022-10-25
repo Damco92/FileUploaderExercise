@@ -1,0 +1,9 @@
+C:\Users\Damjan Stojanovski\source\repos\FileUploader\FileUploader.Domain\bin\Debug\netstandard2.0\FileUploader.Domain.deps.json
+C:\Users\Damjan Stojanovski\source\repos\FileUploader\FileUploader.Domain\bin\Debug\netstandard2.0\FileUploader.Domain.dll
+C:\Users\Damjan Stojanovski\source\repos\FileUploader\FileUploader.Domain\bin\Debug\netstandard2.0\FileUploader.Domain.pdb
+C:\Users\Damjan Stojanovski\source\repos\FileUploader\FileUploader.Domain\obj\Debug\netstandard2.0\FileUploader.Domain.csprojAssemblyReference.cache
+C:\Users\Damjan Stojanovski\source\repos\FileUploader\FileUploader.Domain\obj\Debug\netstandard2.0\FileUploader.Domain.AssemblyInfoInputs.cache
+C:\Users\Damjan Stojanovski\source\repos\FileUploader\FileUploader.Domain\obj\Debug\netstandard2.0\FileUploader.Domain.AssemblyInfo.cs
+C:\Users\Damjan Stojanovski\source\repos\FileUploader\FileUploader.Domain\obj\Debug\netstandard2.0\FileUploader.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Damjan Stojanovski\source\repos\FileUploader\FileUploader.Domain\obj\Debug\netstandard2.0\FileUploader.Domain.dll
+C:\Users\Damjan Stojanovski\source\repos\FileUploader\FileUploader.Domain\obj\Debug\netstandard2.0\FileUploader.Domain.pdb

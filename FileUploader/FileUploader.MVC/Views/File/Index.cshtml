@@ -1,0 +1,67 @@
+﻿@using FileUploader.Web.ViewModels
+@model Tuple<List<FileViewModel>, List<FileRow>>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <canvas height="350" width="600" id="barchart"></canvas>
+        </div>
+    </div>
+    <div class="row mt-4">
+        <ejs-grid id="Grid" dataSource="@Model.Item1">
+            <e-grid-columns>
+                <e-grid-column field="FileId" headerText="File ID" isPrimaryKey="true" validationRules="@(new { required=true})"  width="150"></e-grid-column>
+                <e-grid-column field="FileName" headerText="File Name" visible="true" validationRules="@(new { required=true})" width="150"></e-grid-column>
+                <e-grid-column field="Created" headerText="Created" visible="true" validationRules="@(new { required=true})" width="150"></e-grid-column>
+            </e-grid-columns>
+        </ejs-grid>
+    </div>
+    <div class="row mt-4">
+        <div class="col-md-12 text-center">
+            @Html.ActionLink(linkText: "Upload file", actionName: "UploadFile", routeValues: null, htmlAttributes: new { @class = "btn btn-info btn-sm"})
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        let labels = [];
+        let data = [];
+        let color = [];
+        @if(Model.Item2 != null)
+        {
+             @if(Model.Item2.Count > 0)
+             {
+                  foreach(var item in Model.Item2)
+                  {
+                      @:data.push(@item.Id);
+                      @:labels.push('@item.City');
+                      @:color.push('@item.Color');
+                  }
+             }
+        }
+
+        const dataObj = {
+            labels: labels,
+            datasets: [{
+                label: 'File id',
+                backgroundColor: color,
+                data: data,
+            }]
+        };
+
+        const config = {
+            responsive: true,
+            type: 'bar',
+            data: dataObj,
+            options: {}
+        };
+        const myChart = new Chart(
+            document.getElementById('barchart'),
+            config
+        );
+    </script>
+}
